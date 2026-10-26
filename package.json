@@ -1,0 +1,12 @@
+{
+  "name": "turfconnect",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "echo \"Please run 'npm run dev' inside backend and frontend directories, or run 'npm run dev:backend' / 'npm run dev:frontend'\"",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  },
+  "dependencies": {
+    "razorpay": "^2.9.8"
+  }
+}
